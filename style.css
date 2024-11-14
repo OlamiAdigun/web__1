@@ -99,7 +99,7 @@ nav .mobile__menu{
         width: 100%;
         top: 100%;
         z-index: 99;
-        display: none; 
+        display: block; /*Changed 1*/
         background-color: #825c5c;
         opacity: 0.92;
     }
