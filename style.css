@@ -92,6 +92,7 @@ nav .mobile__menu{
     nav .mobile__menu{
         display: block; 
         font-size: 30px;
+       
     }
     .menu{
         position: absolute;
@@ -99,11 +100,14 @@ nav .mobile__menu{
         top: 100%;
         z-index: 99;
         display: none; 
+        background-color: #825c5c;
+        opacity: 0.92;
     }
     .menu a{
         padding: 22px 0;
         font-size: 18px;
         display: block;
+        
     }
     .show{
         display:block;
